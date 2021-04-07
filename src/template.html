@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+	<link rel="icon" type="image/png" href="/favicon.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="/Yicon192x.png">
+	<link rel="shortcut icon" type="image" href="/favicon.png">
+	<meta name="google-site-verification" content="37cZt13CQlYqXvsUdJVd3hvIAbflrz5oO0nL6tcjYxU" />
+	<meta charset="utf-8">
+	<meta name="viewport" content='width=device-width,initial-scale=1.0'>
+	<meta name="theme-color" content='#333333'>
+
+	<meta name="author" content="Yashas Gowda" />
+	<meta name="description"
+		content="Hey I'm Yashas Gowda, a Full-Stack Web Developer living and breathing in Bengaluru, India" />
+	<link rel="canonical" href="https://yashasgowda.web.app" />
+	<meta property="og:title" content="Yashas Gowda" />
+	<meta property="og:url" content="https://yashasgowda.web.app" />
+	<meta property="og:description"
+		content="Hey I'm Yashas Gowda, a Full-Stack Web Developer living and breathing in Bengaluru, India" />
+	<meta property="og:type" content="website" />
+
+	<meta property="og:site_name" content="Yashas Gowda" />
+	<meta name="keywords"
+		content="full-stack web developer, yashas, yashas gowda s, yashas gowda, pacchi, yacchi, yacchi codes, yacchi_codes, web developer, prashams gowda," />
+	<meta property="og:image" content="https://yashasgowda.web.app/favicon.png" />
+	<link rel="stylesheet" href="/w3.css">
+	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" as="style"
+		onload="this.onload=null;this.rel='stylesheet'">
+
+	<script type="application/ld+json">
+		{
+	        "name":"Yashas Gowda",
+	        "description":"Hey I'm Yashas Gowda, a Full-Stack Web Developer living and breathing in Bengaluru, India",
+	        "author":{
+	          "@type":"Person",
+	          "name":"Yashas Gowda"
+	        },
+	        "disambiguatingDescription": "Web Developer",
+	        "jobTitle": "Full-Stack Web Developer",
+	        "@type":"WebSite",
+			"url":"https://yashasgowda.web.app/",
+			"image":"https://raw.githubusercontent.com/Yashas10Gowda/AutoPlayChromeDino/master/favicon.png",
+	        "headline":"Yashas Gowda",
+	        "alternateName": "Yashas",
+	        "publisher":{
+	          "@type":"Organization",
+	          "logo":{
+	            "@type":"ImageObject",
+	            "url":"https://raw.githubusercontent.com/Yashas10Gowda/AutoPlayChromeDino/master/favicon.png"
+	          },
+	            "name":"Yashas Gowda"
+			},
+			"sameAs" : [
+	   			"https://twitter.com/YashasGowda270",
+	   			"https://www.facebook.com/yashas.gowda.370",
+	   			"https://www.instagram.com/yacchi_codes"
+	   		],
+	        "@context":"http://schema.org"
+		}
+		</script>
+
+	%sapper.base%
+	<!-- Sapper generates a <style> tag containing critical CSS
+	     for the current page. CSS for the rest of the app is
+	     lazily loaded when it precaches secondary pages -->
+	%sapper.styles%
+	<!-- This contains the contents of the <svelte:head> component, if
+	     the current page has one -->
+	%sapper.head%
+	%sapper.scripts%
+</head>
+
+<body
+	style="background-image: linear-gradient(to right, rgba(2, 171, 250, 0.8), rgba(0, 82, 158, 0.8)), url('portfolio-bg.png'); font-family: 'Montserrat', sans-serif; color: white; line-height: 1.25;">
+
+
+	<!-- The application will be rendered inside this element,
+	     because `src/client.js` references it -->
+	<div id='sapper'>%sapper.html%</div>
+
+	<!-- Sapper creates a <script> tag containing `src/client.js`
+	     and anything else it needs to hydrate the app and
+	     initialise the router -->
+</body>
+
+</html>

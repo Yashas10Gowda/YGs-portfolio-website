@@ -1,0 +1,25 @@
+{
+    "name": "Yashas Gowda",
+    "short_name": "Yashas",
+    "icons": [
+        {
+            "src": "Yicon192x.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "favicon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/index.html",
+    "scope": ".",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "background_color": "#fff",
+    "theme_color": "#fff",
+    "description": "Hey!! I'm Yashas and this is my Portfolio Website.",
+    "dir": "ltr",
+    "lang": "en-US"
+}
