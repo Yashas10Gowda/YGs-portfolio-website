@@ -5,7 +5,8 @@
         {
             "src": "Yicon192x.png",
             "type": "image/png",
-            "sizes": "192x192"
+            "sizes": "192x192",
+            "purpose": "any maskable"
         },
         {
             "src": "favicon.png",

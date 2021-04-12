@@ -45,9 +45,15 @@ async function fetchAndCache(request) {
 		return response;
 	} catch (err) {
 		const response = await cache.match(request);
-		if (response) return response;
-
-		throw err;
+		if (response){
+			return response;
+		} 
+		else{
+			console.log('[Service Worker] Fetch failed; returning offline page instead.');
+			const myCache = await caches.open(`cache${timestamp}`)
+        	const cachedResponse = await myCache.match('/404.html');
+        	return cachedResponse;
+		}
 	}
 }
 
