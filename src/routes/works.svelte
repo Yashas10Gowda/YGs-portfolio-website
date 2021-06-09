@@ -1,10 +1,17 @@
 <script>
   const projects = [
     {
+      name: "Project-ABCD",
+      client: false,
+      description: `A sign language detection for alphabets(A-Z) and numbers(0-10) on the web. This is radically a new approach, using WEBGL and tensorflowJS right in the browsers. This project employs ASL (American Sign Language).`,
+      ts: "TensorflowJS, SvelteJS, Picnic.CSS",
+      link: "https://yashas.pythonanywhere.com/project-abcd/",
+    },
+    {
       name: "BookUrBooks.in",
       client: true,
       description: `I Built an E-Commerce website for a Client who had a business idea of selling used/read books online. Many industry standard functionalities like <b>OTP verification, Online Payment Gateway, Cart, Admin Interface</b> and so on are baked in into this project. Buy-Read-Exchange-Repeat!`,
-      ts: "*** Confidential ***",
+      ts: "Django, W3.CSS",
       link: "https://www.bookurbooks.in/",
     },
     {
@@ -138,8 +145,7 @@
     class="worksimg w3-responsive"
     style="width:100%;max-width:300px;position: fixed;right: 100px;top: 30%;"
     src="works.svg"
-    alt=""
-  />
+    alt="" />
 </div>
 
 {#each projects as project}
@@ -179,13 +185,11 @@
           class="w3-button w3-block w3-white w3-text-blue w3-ripple
           w3-hover-white w3-hover-text-blue"
           style="padding:0;padding-bottom:8px;"
-          href={project.link}
-        >
+          href={project.link}>
           View Project
           <i
             style="--ggs:0.75;display:inline-block;position:relative;top:6px;"
-            class="gg-arrow-right"
-          />
+            class="gg-arrow-right" />
         </a>
       </div>
     </div>

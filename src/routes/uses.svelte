@@ -72,39 +72,19 @@
       Bootstrap
     </a>
     <h3 style="font-weight:600" class="w3-margin-top">My Skills</h3>
-    <div
-      class="w3-tag w3-white w3-text-blue w3-ripple a">
-      REST APIs
-    </div>
-    <div
-      class="w3-tag w3-white w3-text-blue w3-ripple a">
+    <div class="w3-tag w3-white w3-text-blue w3-ripple a">REST APIs</div>
+    <div class="w3-tag w3-white w3-text-blue w3-ripple a">
       Single Page Applications (SPA)
     </div>
-    <div
-      class="w3-tag w3-white w3-text-blue w3-ripple a">
+    <div class="w3-tag w3-white w3-text-blue w3-ripple a">
       Progressive Web Apps (PWA)
     </div>
-    <div
-      class="w3-tag w3-white w3-text-blue w3-ripple a">
-      Desktop/GUI Apps
-    </div>
+    <div class="w3-tag w3-white w3-text-blue w3-ripple a">Desktop/GUI Apps</div>
     <h3 style="font-weight:600" class="w3-margin-top">Languages</h3>
-    <div
-      class="w3-tag w3-white w3-text-blue w3-ripple a">
-      Python
-    </div>
-    <div
-      class="w3-tag w3-white w3-text-blue w3-ripple a">
-      JavaScript
-    </div>
-    <div
-      class="w3-tag w3-white w3-text-blue w3-ripple a">
-      HTML and CSS
-    </div>
-    <div
-      class="w3-tag w3-white w3-text-blue w3-ripple a">
-      English
-    </div>
+    <div class="w3-tag w3-white w3-text-blue w3-ripple a">Python</div>
+    <div class="w3-tag w3-white w3-text-blue w3-ripple a">JavaScript</div>
+    <div class="w3-tag w3-white w3-text-blue w3-ripple a">HTML and CSS</div>
+    <div class="w3-tag w3-white w3-text-blue w3-ripple a">English</div>
     <div
       style="padding-bottom: 3px; transform: scaleY(0.85)
       translateY(-2px);margin-bottom: 5px; font-size: 16px; font-weight: 600;"
@@ -139,12 +119,6 @@
     </a>
     <a
       target="_blank"
-      href="https://chrome.google.com/webstore/detail/aejoelaoggembcahagimdiliamlcdmfm"
-      class="w3-tag w3-white w3-text-blue w3-ripple">
-      Talend API Tester
-    </a>
-    <a
-      target="_blank"
       href="https://google.com/chrome"
       class="w3-tag w3-white w3-text-blue w3-ripple">
       Chrome Dev-Tools
@@ -155,10 +129,15 @@
 <div class="w3-section">&nbsp;</div>
 
 <style>
-  h1,h3{
+  h1,
+  h3 {
     margin: 10px 0;
   }
-  a,.a{
-    margin-bottom: 5px; font-size: 16px; font-weight: 600;text-decoration: none;
+  a,
+  .a {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
   }
 </style>
