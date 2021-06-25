@@ -30,6 +30,12 @@
       Svelte.JS
     </a>
     <a
+      target="_blank"
+      class="w3-tag w3-white w3-text-blue w3-ripple"
+      href="https://lit.dev/">
+      Lit
+    </a>
+    <a
       class="w3-tag w3-white w3-text-blue w3-ripple"
       target="_blank"
       href="https://firebase.google.com/">
@@ -58,6 +64,12 @@
       target="_blank"
       href="https://www.django-rest-framework.org/">
       Django & Django Rest Framework
+    </a>
+    <a
+      class="w3-tag w3-white w3-text-blue w3-ripple"
+      target="_blank"
+      href="https://shoelace.style/">
+      ShoeLace.style
     </a>
     <a
       class="w3-tag w3-white w3-text-blue w3-ripple"
@@ -92,6 +104,12 @@
       ಕನ್ನಡ
     </div>
     <h3 style="font-weight:600" class="w3-margin-top">Development Tools</h3>
+    <a
+      target="_blank"
+      href="https://manjaro.org"
+      class="w3-tag w3-white w3-text-blue w3-ripple">
+      Manjaro Linux (KDE)
+    </a>
     <a
       target="_blank"
       href="https://code.visualstudio.com"

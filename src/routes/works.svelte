@@ -117,9 +117,9 @@
       client: false,
       description: `Projects are :- 1)CommentSense &nbsp;2)StoQueAns &nbsp;3)WhatIsIt. Names are
     a little quirky so are these projects, do check it out. When the webpage is
-    loaded for the first time it would take a minute or less to collect all the
-    pre-trained models from the server, so please be patient.`,
-      ts: "Tensorflow.JS, UI-Kit, Vanilla.JS",
+    loaded for the first time it would take a minute or less to load all the
+    pre-trained models from the server, so please be patient. This project is built with Web-Components.`,
+      ts: "Tensorflow, Lit, Shoelace",
       link: "https://yashas.pythonanywhere.com/ai-projects/",
     },
   ];
