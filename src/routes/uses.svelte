@@ -1,3 +1,33 @@
+<script>
+  const toolsData = {
+    webTechnologies:[
+      {name:'Svelte.JS',link:'https://svelte.dev/'},
+      {name:'Lit',link:'https://lit.dev/'},
+      {name:'Google Firebase',link:'https://firebase.google.com/'},
+      {name:'PyQt5',link:'https://pypi.org/project/PyQt5/'},
+      {name:'Ionic',link:'https://ionicframework.com/'},
+      {name:'Sapper.JS (JAMSTACK)',link:'https://sapper.svelte.dev/'},
+      {name:'Django & Django Rest Framework',link:'https://www.django-rest-framework.org/'},
+      {name:'ShoeLace.style',link:'https://shoelace.style/'},
+      {name:'MaterializeCSS',link:'https://materializecss.com/'},
+      {name:'Bootstrap',link:'https://getbootstrap.com/'}
+    ],
+    skills:[
+      'REST APIs','Single Page Applications (SPA)','Progressive Web Apps (PWA)',
+      'Desktop Apps (GUI)'
+    ],
+    languages:['Python','Javascript','HTML and CSS','English'],
+    devTools:[
+      {name:'Lubuntu (LXQT)',link:'https://lubuntu.me/'},
+      {name:'Visual Studio Code',link:'https://code.visualstudio.com'},
+      {name:'Git Distributed VCS',link:'https://git-scm.com'},
+      {name:'Jupyter Lab',link:'https://jupyter.org/'},
+      {name:'Node.JS Runtime',link:'https://nodejs.org/'},
+      {name:' Chrome Dev-Tools',link:'https://google.com/chrome'}
+    ]
+  }
+</script>
+
 <svelte:head>
   <title>Tools I Use | Yashas Gowda</title>
 </svelte:head>
@@ -22,125 +52,45 @@
 <div class="w3-row w3-animate-opacity">
   <div class="w3-col s1">&nbsp;</div>
   <div class="w3-col s10 m8 l6">
-    <h3 style="font-weight:600">Web Technologies</h3>
-    <a
-      target="_blank"
-      class="w3-tag w3-white w3-text-blue w3-ripple"
-      href="https://svelte.dev/">
-      Svelte.JS
-    </a>
-    <a
-      target="_blank"
-      class="w3-tag w3-white w3-text-blue w3-ripple"
-      href="https://lit.dev/">
-      Lit
-    </a>
-    <a
-      class="w3-tag w3-white w3-text-blue w3-ripple"
-      target="_blank"
-      href="https://firebase.google.com/">
-      Google Firebase
-    </a>
-    <a
-      class="w3-tag w3-white w3-text-blue w3-ripple"
-      target="_blank"
-      href="https://pypi.org/project/PyQt5/">
-      PyQt5
-    </a>
-    <a
-      class="w3-tag w3-white w3-text-blue w3-ripple"
-      target="_blank"
-      href="https://ionicframework.com/">
-      Ionic
-    </a>
-    <a
-      class="w3-tag w3-white w3-text-blue w3-ripple"
-      target="_blank"
-      href="https://sapper.svelte.dev/">
-      Sapper.JS (JAMSTACK)
-    </a>
-    <a
-      class="w3-tag w3-white w3-text-blue w3-ripple"
-      target="_blank"
-      href="https://www.django-rest-framework.org/">
-      Django & Django Rest Framework
-    </a>
-    <a
-      class="w3-tag w3-white w3-text-blue w3-ripple"
-      target="_blank"
-      href="https://shoelace.style/">
-      ShoeLace.style
-    </a>
-    <a
-      class="w3-tag w3-white w3-text-blue w3-ripple"
-      target="_blank"
-      href="https://materializecss.com/">
-      MaterializeCSS
-    </a>
-    <a
-      class="w3-tag w3-white w3-text-blue w3-ripple"
-      target="_blank"
-      href="https://getbootstrap.com/">
-      Bootstrap
-    </a>
-    <h3 style="font-weight:600" class="w3-margin-top">My Skills</h3>
-    <div class="w3-tag w3-white w3-text-blue w3-ripple a">REST APIs</div>
-    <div class="w3-tag w3-white w3-text-blue w3-ripple a">
-      Single Page Applications (SPA)
-    </div>
-    <div class="w3-tag w3-white w3-text-blue w3-ripple a">
-      Progressive Web Apps (PWA)
-    </div>
-    <div class="w3-tag w3-white w3-text-blue w3-ripple a">Desktop/GUI Apps</div>
-    <h3 style="font-weight:600" class="w3-margin-top">Languages</h3>
-    <div class="w3-tag w3-white w3-text-blue w3-ripple a">Python</div>
-    <div class="w3-tag w3-white w3-text-blue w3-ripple a">JavaScript</div>
-    <div class="w3-tag w3-white w3-text-blue w3-ripple a">HTML and CSS</div>
-    <div class="w3-tag w3-white w3-text-blue w3-ripple a">English</div>
-    <div
-      style="padding-bottom: 3px; transform: scaleY(0.85)
-      translateY(-2px);margin-bottom: 5px; font-size: 16px; font-weight: 600;"
-      class="w3-tag w3-white w3-text-blue w3-ripple a">
-      ಕನ್ನಡ
-    </div>
-    <h3 style="font-weight:600" class="w3-margin-top">Development Tools</h3>
-    <a
-      target="_blank"
-      href="https://manjaro.org"
-      class="w3-tag w3-white w3-text-blue w3-ripple">
-      Manjaro Linux (KDE)
-    </a>
-    <a
-      target="_blank"
-      href="https://code.visualstudio.com"
-      class="w3-tag w3-white w3-text-blue w3-ripple">
-      Visual Studio Code
-    </a>
-    <a
-      target="_blank"
-      href="https://git-scm.com"
-      class="w3-tag w3-white w3-text-blue w3-ripple">
-      Git Distributed VCS
-    </a>
 
-    <a
+    <h3 style="font-weight:600">Web Technologies</h3>
+    {#each toolsData.webTechnologies as webTech}
+      <a
       target="_blank"
-      href="https://jupyter.org/"
-      class="w3-tag w3-white w3-text-blue w3-ripple">
-      Jupyter Lab
+      class="w3-tag w3-white w3-text-blue w3-ripple"
+      href={webTech.link}>
+        {webTech.name}
     </a>
-    <a
+    {/each}
+  
+    <h3 style="font-weight:600" class="w3-margin-top">My Skills</h3>
+    {#each toolsData.skills as skills}
+      <div class="w3-tag w3-white w3-text-blue w3-ripple a">{skills}</div>
+    {/each}
+    
+    <h3 style="font-weight:600" class="w3-margin-top">Languages</h3>
+      <div
+        style="padding-bottom: 3px; transform: scaleY(0.85)
+        translateY(-2px); margin: 0; margin-bottom: 5px; font-size: 16px; font-weight: 600;"
+        class="w3-tag w3-white w3-text-blue w3-ripple">
+        ಕನ್ನಡ
+      </div>
+    {#each toolsData.languages as languages}
+      <div class="w3-tag w3-white w3-text-blue w3-ripple a">{languages}</div>      
+    {/each}
+      
+
+    <h3 style="font-weight:600" class="w3-margin-top">Development Tools</h3>
+    {#each toolsData.devTools as devTools}
+      <a
       target="_blank"
-      href="https://nodejs.org/"
+      href={devTools.link}
       class="w3-tag w3-white w3-text-blue w3-ripple">
-      Node.JS Runtime
-    </a>
-    <a
-      target="_blank"
-      href="https://google.com/chrome"
-      class="w3-tag w3-white w3-text-blue w3-ripple">
-      Chrome Dev-Tools
-    </a>
+        {devTools.name}
+      </a>
+    {/each}
+    
+
   </div>
   <div class="w3-col s1">&nbsp;</div>
 </div>
@@ -154,6 +104,7 @@
   a,
   .a {
     margin-bottom: 5px;
+    margin-right: 5px;
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
