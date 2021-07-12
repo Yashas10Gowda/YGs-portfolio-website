@@ -97,7 +97,6 @@
 <div class="w3-section">&nbsp;</div>
 
 <style>
-  h1,
   h3 {
     margin: 10px 0;
   }
@@ -108,5 +107,8 @@
     font-size: 16px;
     font-weight: 600;
     text-decoration: none;
+  }
+  h1{
+    margin: 0;
   }
 </style>
