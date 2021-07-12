@@ -1,7 +1,8 @@
 {
-  "name": "YashasGowda",
+  "name": "yashasgowda",
   "description": "Portfolio website of Yashas Gowda (yashasgowda.web.app)",
   "version": "2.0.0",
+  "license": "CC0 1.0 Universal",
   "scripts": {
     "dev": "sapper dev",
     "build": "sapper build --legacy",
