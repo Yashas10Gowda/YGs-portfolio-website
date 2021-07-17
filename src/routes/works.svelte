@@ -40,7 +40,7 @@
       client: false,
       description: `A Social Media App for developers, (available as PWA). It connects Coders, Developers, Programmers across the world to collaborate, invent and develop. I Handled everything from creation of accounts, posts to their permissions in the backend (This is a well separated frontend and backend project.)`,
       ts: "Django, Django Rest Framework, Sapper.JS, Bootstrap",
-      link: "https://codeconnector.web.app/",
+      link: "https://yashas.pythonanywhere.com/code-connector/",
     },
     {
       name: "UI Templates",
@@ -48,39 +48,39 @@
       description: `Templates which drew inspiration from top websites like heroku.com, airbnb.com etc (do feel free to star this repo on Github). These templates are live right now so click on any one of the following names that you find attractive :<a
       style="text-decoration: underline;font-style: italic;"
       target="_blank"
-      href="https://yashas.pythonanywhere.com/travelville">
+      href="https://yashas.pythonanywhere.com/ui-templates/travelville/">
       TravelVille
     </a>
     ,
     <a
       style="text-decoration: underline;font-style: italic;"
       target="_blank"
-      href="https://yashas.pythonanywhere.com/quazzu">
+      href="https://yashas.pythonanywhere.com/ui-templates/quazzu/">
       Quazzu
     </a>
     ,
     <a
       style="text-decoration: underline;font-style: italic;"
       target="_blank"
-      href="https://yashas.pythonanywhere.com/madmin">
+      href="https://yashas.pythonanywhere.com/ui-templates/madmin/">
       M-Admin
     </a>
     ,
     <a
       style="text-decoration: underline;font-style: italic;"
       target="_blank"
-      href="https://yashas.pythonanywhere.com/bizland">
+      href="https://yashas.pythonanywhere.com/ui-templates/bizland/">
       BizLand
     </a>`,
       ts: "MaterializeCSS, JQuery",
-      link: "https://github.com/Yashas10Gowda/MaterializeCSSCourse",
+      link: "https://github.com/Yashas10Gowda/MaterializeCSSCourse/",
     },
     {
       name: "UPI'ly Link'ed",
       client: false,
       description: `This Webpage is exclusively built for a mobile devices with anyone UPI App (PSP App) installed in it. And visitors can just enter an amount and pay me via UPI (thereby saving myself from happening to share that cryptic UPI-ID or QR-Code EACH AND EVERYTIME).`,
       ts: "Vanilla.JS, Google's Material Components",
-      link: "https://yashas.pythonanywhere.com/",
+      link: "https://yashas.pythonanywhere.com/ui-templates/upily-linked/",
     },
     {
       name: "Desktop Apps",
@@ -110,7 +110,7 @@
       Logger
     </a>`,
       ts: "Python, PyQt5",
-      link: "https://github.com/Yashas10Gowda/3_PyQt5_GUIApps",
+      link: "https://github.com/Yashas10Gowda/3_PyQt5_GUIApps/",
     },
     {
       name: "AI-Projects",
