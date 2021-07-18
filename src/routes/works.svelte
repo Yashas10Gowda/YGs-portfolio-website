@@ -4,7 +4,7 @@
       name: "Project-ABCD",
       client: false,
       description: `A sign language detection for alphabets(A-Z) and numbers(0-10) on the web. This is radically a new approach, using WEBGL and tensorflowJS right in the browsers. This project employs ASL (American Sign Language).`,
-      ts: "TensorflowJS, SvelteJS, Picnic.CSS",
+      ts: "Tensorflow.JS, Svelte.JS, Picnic.CSS",
       link: "https://yashas.pythonanywhere.com/project-abcd/",
     },
     {
@@ -38,8 +38,18 @@
     {
       name: "Code Connector",
       client: false,
-      description: `A Social Media App for developers, (available as PWA). It connects Coders, Developers, Programmers across the world to collaborate, invent and develop. I Handled everything from creation of accounts, posts to their permissions in the backend (This is a well separated frontend and backend project.)`,
-      ts: "Django, Django Rest Framework, Sapper.JS, Bootstrap",
+      description: `A Social Media App for developers. It connects Coders, Developers, Programmers across the world to collaborate, invent and develop. I Handled everything from creation of accounts, posts to their permissions in the backend (This is a well separated frontend 
+      <a style="text-decoration: underline;font-style: italic;"
+         target="_blank"
+         href="https://yashas.pythonanywhere.com/code-connector/">
+         hosted here
+      </a> and backend project
+      <a style="text-decoration: underline;font-style: italic;"
+         target="_blank"
+         href="https://yashas.pythonanywhere.com/api/">
+         hosted here
+      </a>).`,
+      ts: "Django, Django Rest Framework, Svelte.JS, Bootstrap",
       link: "https://yashas.pythonanywhere.com/code-connector/",
     },
     {
@@ -151,7 +161,7 @@
 {#each projects as project}
   <div class="w3-row w3-section w3-animate-top">
     <div class="w3-col s1">&nbsp;</div>
-    <div class="w3-col s10 m7 l6">
+    <div class="w3-col s10 l6">
       <div class="w3-card-4">
         <header class="w3-container w3-text-white">
           {#if project.client}
