@@ -1,225 +1,125 @@
-<!DOCTYPE html>
-<!-- saved from url=(0024)http://localhost:3000/io -->
-<html lang="en">
+<!doctype html>
+<html lang='en'>
 
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<link rel="icon" type="image/png" href="/favicon.png" sizes="192x192">
+	<link rel="apple-touch-icon" href="/Yicon192x.png">
+	<link rel="shortcut icon" type="image" href="/favicon.png">
+	<meta name="google-site-verification" content="37cZt13CQlYqXvsUdJVd3hvIAbflrz5oO0nL6tcjYxU" />
+	<meta charset="utf-8">
+	<meta name="viewport" content='width=device-width,initial-scale=1.0'>
+	<meta name="theme-color" content='#333333'>
 
-	<meta name="viewport" content="width=device-width,initial-scale=1.0">
-	<meta name="theme-color" content="#333333">
+	<meta name="author" content="Yashas Gowda" />
+	<meta name="description"
+		content="Hey I'm Yashas Gowda, a Full-Stack Web Developer living and breathing in Bengaluru, India" />
+	<link rel="canonical" href="https://yashasgowda.web.app" />
+	<meta property="og:title" content="Yashas Gowda" />
+	<meta property="og:url" content="https://yashasgowda.web.app" />
+	<meta property="og:description"
+		content="Hey I'm Yashas Gowda, a Full-Stack Web Developer living and breathing in Bengaluru, India" />
+	<meta property="og:type" content="website" />
 
-	<!--<base href="/">-->
-	<base href=".">
-	<style>
-		body {
-			margin: 0;
-			font-family: 'Montserrat', sans-serif;
-			font-size: 14px;
-			color: #fff;
+	<meta property="og:site_name" content="Yashas Gowda" />
+	<meta name="keywords"
+		content="full-stack web developer, yashas, yashas gowda s, yashas gowda, pacchi, yacchi, yacchi codes, yacchi_codes, web developer, prashams gowda," />
+	<meta property="og:image" content="https://yashasgowda.web.app/favicon.png" />
+	<link rel="stylesheet" href="/w3.css">
+	<link rel="manifest" href="/manifest.json" crossorigin="use-credentials">
+	<link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat:500&display=swap" as="style"
+		onload="this.onload=null;this.rel='stylesheet'">
+
+	<script type="application/ld+json">
+		{
+	        "name":"Yashas Gowda",
+	        "description":"Hey I'm Yashas Gowda, a Full-Stack Web Developer living and breathing in Bengaluru, India",
+	        "author":{
+	          "@type":"Person",
+	          "name":"Yashas Gowda"
+	        },
+	        "disambiguatingDescription": "Web Developer",
+	        "jobTitle": "Full-Stack Web Developer",
+	        "@type":"WebSite",
+			"url":"https://yashasgowda.web.app/",
+			"image":"https://raw.githubusercontent.com/Yashas10Gowda/AutoPlayChromeDino/master/favicon.png",
+	        "headline":"Yashas Gowda",
+	        "alternateName": "Yashas",
+	        "publisher":{
+	          "@type":"Organization",
+	          "logo":{
+	            "@type":"ImageObject",
+	            "url":"https://raw.githubusercontent.com/Yashas10Gowda/AutoPlayChromeDino/master/favicon.png"
+	          },
+	            "name":"Yashas Gowda"
+			},
+			"sameAs" : [
+	   			"https://twitter.com/YashasGowda270",
+	   			"https://www.facebook.com/yashas.gowda.370",
+	   			"https://www.instagram.com/yacchi_codes"
+	   		],
+	        "@context":"http://schema.org"
 		}
+		</script>
 
-		main h1 {
-			margin-left: 10%;
-		}
-
-		h1,
-		h2,
-		h3,
-		h4,
-		h5,
-		h6 {
-			margin: 0 0 0.5em 0;
-			font-weight: 500;
-		}
-
-		h1 {
-			font-size: 2em;
-		}
-
-		a {
-			color: inherit;
-		}
-
-		code {
-			font-family: menlo, inconsolata, monospace;
-			font-size: calc(1em - 2px);
-			color: #555;
-			background-color: #f0f0f0;
-			padding: 0.2em 0.4em;
-			border-radius: 2px;
-		}
-
-		@media (min-width: 400px) {
-			body {
-				font-size: 16px;
-			}
-		}
-	</style>
-	<!-- <link rel="stylesheet" href="./404_files/global.css"> -->
-	<link rel="manifest" href="http://localhost:3000/manifest.json" crossorigin="use-credentials">
-	<link href="./404_files/css" rel="stylesheet">
-
-	<!-- Sapper generates a <style> tag containing critical CSS
-	     for the current page. CSS for the rest of the app is
-	     lazily loaded when it precaches secondary pages -->
-	<style>
-		main.svelte-tdnk6b {
-			position: relative;
-			box-sizing: border-box;
-		}
-
-		header.svelte-1arwlvc {
-			color: white
-		}
-
-		.heading-box.svelte-1arwlvc {
-			margin: 40px 30px;
-			text-transform: uppercase
-		}
-
-		a.svelte-1arwlvc {
-			text-decoration: none
-		}
-
-		a.svelte-1arwlvc:hover {
-			color: rgb(255, 208, 0)
-		}
-
-		.heading-name.svelte-1arwlvc {
-			font-weight: 700;
-			font-size: 27px;
-			margin-right: 30%;
-			animation-name: svelte-1arwlvc-navani;
-			animation-duration: 2s
-		}
-
-		.nav-items.svelte-1arwlvc {
-			font-weight: 600;
-			height: 20px;
-			font-size: 20px;
-			margin: 0 1%;
-			animation-name: svelte-1arwlvc-navani;
-			animation-duration: 2s
-		}
-
-		.enabled.svelte-1arwlvc {
-			color: rgb(255, 208, 0)
-		}
-
-		.name.svelte-1arwlvc:hover {
-			color: white
-		}
-
-		@keyframes svelte-1arwlvc-navani {
-			0% {
-				opacity: 0
-			}
-
-			100% {
-				opacity: 1
-			}
-		}
-
-		@media(max-width:1100px) {
-			.heading-name.svelte-1arwlvc {
-				font-weight: 700;
-				font-size: 27px;
-				margin-right: 20%;
-				animation-name: svelte-1arwlvc-navani;
-				animation-duration: 2s
-			}
-		}
-
-		@media(max-width:960px) {
-			.heading-name.svelte-1arwlvc {
-				font-weight: 700;
-				font-size: 27px;
-				margin-right: 5%;
-				animation-name: svelte-1arwlvc-navani;
-				animation-duration: 2s
-			}
-		}
-
-		@media(max-width:800px) {
-			.heading-name.svelte-1arwlvc {
-				display: block;
-				font-weight: 700;
-				font-size: 25px;
-				margin-right: 5%;
-				animation-name: svelte-1arwlvc-navani;
-				animation-duration: 2s
-			}
-
-			.nav-items.svelte-1arwlvc {
-				font-weight: 600;
-				height: 20px;
-				font-size: 15px;
-				margin: 0 0.5%;
-				animation-name: svelte-1arwlvc-navani;
-				animation-duration: 2s
-			}
-		}
-
-		@media(max-width:370px) {
-			.nav-items.svelte-1arwlvc {
-				font-weight: 550;
-				font-size: 13px
-			}
-		}
-
-		h1.svelte-8od9u6,
-		p.svelte-8od9u6 {
-			margin: 0 auto
-		}
-
-		h1.svelte-8od9u6 {
-			font-size: 2.8em;
-			font-weight: 700;
-			margin: 0 0 0.5em 0
-		}
-
-		p.svelte-8od9u6 {
-			margin: 1em auto
-		}
-
-		@media(min-width: 480px) {
-			h1.svelte-8od9u6 {
-				font-size: 4em
-			}
-		}
-	</style>
-
-	<!-- This contains the contents of the <svelte:head> component, if
-	     the current page has one -->
+	<base href="/">
+	<link rel="stylesheet" href="client/client-fb859459.css">
 	<title>404 or Offline</title>
+	<script>__SAPPER__ = { error: { message: "Not found", name: "PreloadError" }, status: 404, baseUrl: "", preloaded: [void 0, {}] }; if ('serviceWorker' in navigator) navigator.serviceWorker.register('/service-worker.js'); var s = document.createElement("script"); try { new Function("if(0)import('')")(); s.src = "/client/client.dec6b89a.js"; s.type = "module"; s.crossOrigin = "use-credentials"; } catch (e) { s.src = "/client/shimport@2.0.4.js"; s.setAttribute("data-main", "/client/client.dec6b89a.js") } document.head.appendChild(s)</script>
 </head>
 
 <body
-	style="background-image: linear-gradient(to right, rgba(2, 171, 250, 0.8), rgba(0, 82, 158, 0.8)), url(&#39;portfolio-bg.png&#39;);">
-	<!-- The application will be rendered inside this element,
-	     because `src/client.js` references it -->
-	<div id="sapper">
-		<header class="svelte-1arwlvc">
-			<h1 class="heading-box svelte-1arwlvc"><span class="heading-name svelte-1arwlvc"><a
-						class="name svelte-1arwlvc" href="/">Yashas Gowda</a></span> <span
-					class="nav-items home svelte-1arwlvc"><a class=" svelte-1arwlvc" href="/">Home</a></span> <span
-					class="nav-items svelte-1arwlvc"><a class=" svelte-1arwlvc" href="/about">About</a></span> <span
-					class="nav-items svelte-1arwlvc"><a class=" svelte-1arwlvc" href="/work">Work</a></span> <span
-					class="nav-items svelte-1arwlvc"><a class=" svelte-1arwlvc" href="/uses">Uses</a></span> <span
-					style="margin-right:0;" class="nav-items svelte-1arwlvc"><a class=" svelte-1arwlvc"
-						href="/contact">Contact</a></span></h1>
-		</header>
-		<main class="svelte-tdnk6b">
-			<h1 class="svelte-8od9u6">404 or Offline</h1>
+	style="background-image: linear-gradient(to right, rgba(2, 171, 250, 0.8), rgba(0, 82, 158, 0.8)), url('portfolio-bg.png'); font-family: 'Montserrat', sans-serif; color: white; line-height: 1.25;">
+
+	<div id='sapper'>
+		<div data-nosnippet class="w3-top">
+			<div class="w3-bar w3-xlarge w3-white w3-text-blue w3-border w3-card-4
+    w3-container"><a href="/" class="w3-bar-item w3-button w3-hover-white w3-hover-text-blue">
+					<h1 style="font-weight:600;font-size:27px;font-family: 'Montserrat',
+        sans-serif;margin:0;">Yashas Gowda
+					</h1>
+				</a>
+				<div class="w3-right w3-hide-medium"><a rel="prefetch" href="/"
+						class="w3-bar-item w3-button w3-hover-blue w3-hide-small svelte-sutch5">Home
+					</a>
+					<a rel="prefetch" href="/about"
+						class="w3-bar-item w3-button w3-hover-blue w3-hide-small svelte-sutch5">About
+					</a>
+					<a rel="prefetch" href="/works"
+						class="w3-bar-item w3-button w3-hover-blue w3-hide-small svelte-sutch5">Works
+					</a>
+					<a rel="prefetch" href="/uses"
+						class="w3-bar-item w3-button w3-hover-blue w3-hide-small svelte-sutch5">Uses
+					</a>
+					<a rel="prefetch" href="/contact"
+						class="w3-bar-item w3-button w3-hover-blue w3-hide-small svelte-sutch5">Contact
+					</a>
+				</div>
+
+				<a href="/" class="w3-bar-item w3-button w3-right w3-hide-large w3-hover-blue icon
+      w3-ripple svelte-sutch5"><i class="gg-menu-round svelte-sutch5"></i></a>
+			</div>
+
+			<div id="demo" class="w3-bar-block w3-large w3-white w3-hide w3-hide-large w3-container
+    w3-text-blue"><a href="/" rel="prefetch" class="w3-bar-item w3-button w3-hover-blue">Home
+				</a>
+				<a href="/about" rel="prefetch" class="w3-bar-item w3-button w3-hover-blue">About
+				</a>
+				<a href="/works" rel="prefetch" class="w3-bar-item w3-button w3-hover-blue">Works
+				</a>
+				<a href="/uses" rel="prefetch" class="w3-bar-item w3-button w3-hover-blue">Uses
+				</a>
+				<a href="/contact" rel="prefetch" class="w3-bar-item w3-button w3-hover-blue">Contact
+				</a>
+			</div>
+		</div>
+		<main class="svelte-167wu11">
+			<div id="sapper">
+				<main class="svelte-tdnk6b svelte-4ssx7o">
+					<h1 class="svelte-8od9u6 svelte-4ssx7o">404 or Offline</h1>
+				</main>
+			</div>
 		</main>
 	</div>
-
-	<!-- Sapper creates a <script> tag containing `src/client.js`
-	     and anything else it needs to hydrate the app and
-	     initialise the router -->
-	<script>__SAPPER__ = { error: { message: "Not found" }, status: 404, baseUrl: "", preloaded: [void 0, {}] }; if ('serviceWorker' in navigator) navigator.serviceWorker.register('/service-worker.js'); var s = document.createElement("script"); try { new Function("if(0)import('')")(); s.src = "/client/client.f10c3e42.js"; s.type = "module"; s.crossOrigin = "use-credentials"; } catch (e) { s.src = "/client/shimport@1.0.1.js"; s.setAttribute("data-main", "/client/client.f10c3e42.js") } document.head.appendChild(s)</script>
-
-
 </body>
 
 </html>

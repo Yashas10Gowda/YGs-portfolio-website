@@ -1,40 +1,47 @@
 <script>
-	export let status;
-	export let error;
+	import {onMount} from 'svelte'
 
-	const dev = process.env.NODE_ENV === 'development';
+	onMount(()=>{
+		if ('serviceWorker' in navigator) navigator.serviceWorker.register('/service-worker.js'); 
+		var s = document.createElement("script"); 
+		try { new Function("if(0)import('')")(); s.src = "/client/client.f10c3e42.js"; s.type = "module"; s.crossOrigin = "use-credentials"; }
+		catch (e) { s.src = "/client/shimport@1.0.1.js"; s.setAttribute("data-main", "/client/client.f10c3e42.js") }
+		document.head.appendChild(s);
+	})
+	
 </script>
 
-<style>
-	h1, p {
-		margin: 0 auto;
-	}
 
+<style>
 	h1 {
+		margin: 20% 0 !important;
+		text-align: center;
 		font-size: 2.8em;
 		font-weight: 700;
-		margin: 0 0 0.5em 0;
+		font-size: 2em;
 	}
-
-	p {
-		margin: 1em auto;
+	main.svelte-tdnk6b {
+		position: relative;
+		box-sizing: border-box;
 	}
+	@keyframes svelte-1arwlvc-navani {
+		0% {
+			opacity: 0
+		}
 
-	@media (min-width: 480px) {
-		h1 {
-			font-size: 4em;
+		100% {
+			opacity: 1
 		}
 	}
 </style>
 
 <svelte:head>
-	<title>{status}</title>
+	<title>404 or Offline</title>
 </svelte:head>
 
-<h1>{status}</h1>
+<div id="sapper">
+	<main class="svelte-tdnk6b">
+		<h1 class="svelte-8od9u6">404 or Offline</h1>
+	</main>
+</div>
 
-<p>{error.message}</p>
-
-{#if dev && error.stack}
-	<pre>{error.stack}</pre>
-{/if}
