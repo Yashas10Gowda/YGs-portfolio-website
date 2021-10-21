@@ -57,6 +57,7 @@
     {#each toolsData.webTechnologies as webTech}
       <a
       target="_blank"
+      rel="noopener noreferrer"
       class="w3-tag w3-white w3-text-blue w3-ripple"
       href={webTech.link}>
         {webTech.name}
@@ -84,6 +85,7 @@
     {#each toolsData.devTools as devTools}
       <a
       target="_blank"
+      rel="noopener noreferrer"
       href={devTools.link}
       class="w3-tag w3-white w3-text-blue w3-ripple">
         {devTools.name}
