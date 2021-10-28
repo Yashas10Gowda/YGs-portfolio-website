@@ -4,7 +4,7 @@
       name: "Project-ABCD",
       client: false,
       description: `A sign language detection for alphabets(A-Z) and numbers(0-10) on the web. This is radically a new approach, using WEBGL and tensorflowJS right in the browsers. This project employs ASL (American Sign Language).`,
-      ts: "Tensorflow.JS, Svelte.JS, Picnic.CSS",
+      ts: "Tensorflow.JS, Svelte.TS, Picnic.CSS",
       link: "https://yashas.pythonanywhere.com/project-abcd/",
     },
     {

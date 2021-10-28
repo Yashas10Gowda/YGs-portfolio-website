@@ -8,6 +8,7 @@
       {name:'Ionic',link:'https://ionicframework.com/'},
       {name:'Sapper.JS (JAMSTACK)',link:'https://sapper.svelte.dev/'},
       {name:'Django & Django Rest Framework',link:'https://www.django-rest-framework.org/'},
+      {name:'Typescript',link:'https://www.typescriptlang.org/'},
       {name:'ShoeLace.style',link:'https://shoelace.style/'},
       {name:'MaterializeCSS',link:'https://materializecss.com/'},
       {name:'Bootstrap',link:'https://getbootstrap.com/'}
